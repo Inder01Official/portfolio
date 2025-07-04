@@ -218,12 +218,14 @@
                         <p class="text-gray-600 leading-relaxed mb-4">
                             A conceptual design for a modern e-commerce platform, focusing on seamless user flow and engaging product presentation.
                         </p>
-                        <div class="flex flex-wrap gap-x-4 gap-y-2 items-center">
-                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">View Design <i class="fas fa-external-link-alt ml-1"></i></a>
-                            <!-- Figma option (non-clickable) -->
-                            <a class="text-purple-600 font-medium transition duration-300 pointer-events-none cursor-default">Figma <i class="fab fa-figma ml-1"></i></a>
-                            <!-- Adobe XD option (non-clickable) -->
-                            <a class="text-pink-600 font-medium transition duration-300 pointer-events-none cursor-default">Adobe XD <i class="fab fa-adobe ml-1"></i></a>
+                        <div class="flex flex-wrap gap-x-4 gap-y-2 items-center justify-between"> <!-- Changed to justify-between -->
+                            <a href="https://www.figma.com/design/lj9NdI0w6HrjSzhMlRjar4/Untitled?node-id=0-1&t=ECaf0KO2AvVXe1pq-1" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">View Design <i class="fas fa-external-link-alt ml-1"></i></a>
+                            <div class="flex gap-x-4"> <!-- New div to group Figma and Adobe XD on the right -->
+                                <!-- Figma option (non-clickable) -->
+                                <span class="text-purple-600 font-medium transition duration-300 opacity-70 cursor-not-allowed">Figma <i class="fab fa-figma ml-1"></i></span>
+                                <!-- Adobe XD option (non-clickable) -->
+                                <span class="text-pink-600 font-medium transition duration-300 opacity-70 cursor-not-allowed">Adobe XD <i class="fab fa-adobe ml-1"></i></span>
+                            </div>
                         </div>
                     </div>
                 </div>
